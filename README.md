@@ -1,2 +1,6 @@
 # easybtc
-Bitcoin Library - for simple access to bitcoin data
+Bitcoin Python Library - for simple access to bitcoin data
+
+Request realtime Bitcoin price data in one line of code from an open, free and legal source.
+
+
