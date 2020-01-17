@@ -6,19 +6,29 @@ easy btc is a Bitcoin Python Library - for simple access to bitcoin data. This l
 import easybtc as btc
 ```
 
-### Current USD value of 1 BTC is as simple as:
+### Current USD value of 1 BTC:
 ```python
 myPriceRequest = btc.Bitcoin().price
 ```
 
-### Current GBP value of 1 BTC is as simple as:
+### Current GBP value of 1 BTC:
 ```python
 myPriceRequest = btc.Bitcoin().priceGBP
 ```
 
-### Current EURO value of 1 BTC is as simple as:
+### Current EURO value of 1 BTC:
 ```python
 myPriceRequest = btc.Bitcoin().priceEUR
 ```
 
 
+### Check the success code of the API call:
+```python
+myStatusCheck = btc.Bitcoin().statusCode
+```
+
+```python
+if myStatusCheck == 200:
+  #execute your cool code!
+
+```
