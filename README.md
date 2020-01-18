@@ -1,5 +1,9 @@
 # easybtc
-easy btc is a Bitcoin Python Library - for simple access to bitcoin data. This library makes it simple to request realtime Bitcoin pricing data in one line of code from an open, free and legal source.
+easy btc is a Bitcoin Python Library - for simple access to bitcoin data. This library makes it simple to request realtime Bitcoin pricing data in one line of code from an open, free and legal source.  easybtc is a python wrapper for the [Coindesk](https://www.coindesk.com/price/bitcoin) API.
+
+easybtc is written to support [Python 3.x](https://www.python.org/download/releases/3.0/) and is powered by [Coindesk](https://www.coindesk.com/price/bitcoin)
+
+# Examples
 
 ### Import easybtc:
 ```python
