@@ -13,11 +13,12 @@ class Request:
         self.status_c = self.request.status_code
         self.json = self.request.json()
         self.price = self.json['bpi']['USD']['rate']
-        self.priceGBP = self.json['bpi']['GBP']['rate']
-        self.priceEUR = self.json['bpi']['EUR']['rate']
+        self.price_GBP = self.json['bpi']['GBP']['rate']
+        self.price_EUR = self.json['bpi']['EUR']['rate']
 
 class Bitcoin:
     def __init__(self):
         self.price = Request().price
-        self.priceGBP = Request().priceGBP
-        self.priceEUR = Request().priceEUR
+        self.price_GBP = Request().price_GBP
+        self.price_EUR = Request().price_EUR
+        self.status_code = Request().status_c
