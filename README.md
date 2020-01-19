@@ -17,18 +17,18 @@ myPriceRequest = btc.Bitcoin().price
 
 ### Current GBP value of 1 BTC:
 ```python
-myPriceRequest = btc.Bitcoin().priceGBP
+myPriceRequest = btc.Bitcoin().price_GBP
 ```
 
 ### Current EURO value of 1 BTC:
 ```python
-myPriceRequest = btc.Bitcoin().priceEUR
+myPriceRequest = btc.Bitcoin().price_EUR
 ```
 
 
 ### Check the success code of the API call:
 ```python
-myStatusCheck = btc.Bitcoin().statusCode
+myStatusCheck = btc.Bitcoin().status_code
 ```
 
 ```python
