@@ -36,3 +36,7 @@ if myStatusCheck == 200:
   #execute your cool code!
 
 ```
+
+# Roadmap
+- [ ] Full coverage of [Coindesk](https://www.coindesk.com/price/bitcoin) API.
+- [ ] Historical/Trend data
