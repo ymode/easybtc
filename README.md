@@ -38,5 +38,6 @@ if myStatusCheck == 200:
 ```
 
 # Roadmap
+- [X] Basic BTC value against USD, GBP and Euro.
 - [ ] Full coverage of [Coindesk](https://www.coindesk.com/price/bitcoin) API.
 - [ ] Historical/Trend data
