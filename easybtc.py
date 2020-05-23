@@ -15,6 +15,13 @@ class Request:
         self.price = self.json['bpi']['USD']['rate']
         self.price_GBP = self.json['bpi']['GBP']['rate']
         self.price_EUR = self.json['bpi']['EUR']['rate']
+    
+class CNY_Request:
+    def __init__(self):    
+        self.request = _r.get('https://api.coindesk.com/v1/bpi/currentprice/CNY.json')
+        self.json = self.request.json()
+        self.CNY_status = self.request.status_code
+        self.price_CNY = self.json['bpi']['CNY']['rate']
 
 class Bitcoin:
     def __init__(self):
@@ -22,3 +29,9 @@ class Bitcoin:
         self.price_GBP = Request().price_GBP
         self.price_EUR = Request().price_EUR
         self.status_code = Request().status_c
+
+class CNY:
+    def __init__(self):
+        self.price = CNY_Request().price_CNY
+        self.status_code = CNY_Request().CNY_status
+
